@@ -21,6 +21,5 @@ class Student {
 	studentPassword blank: false, nullable: false;
 	isFundingAvailable blank: false, nullable: false;
 	course blank: false, nullable: false;
-
     }
 }

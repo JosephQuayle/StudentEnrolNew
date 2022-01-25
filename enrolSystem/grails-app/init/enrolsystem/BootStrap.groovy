@@ -15,7 +15,7 @@ class BootStrap {
 	endDate: new Date('07/07/2023'),
 	description: '"Course involving different aspects of the computing industry, web development, system architectures, and project management."',
 	numberOfStudents: 15,
-	tuitionFees: 9000
+	tuitionFees: 9000,
 	).save()
 
 	def webDevelopment = new Course(
@@ -29,7 +29,7 @@ class BootStrap {
 	endDate: new Date('07/07/2023'),
 	description: '"Course involving different aspects of the computing industry, web development, system architectures, and project management."',
 	numberOfStudents: 15,
-	tuitionFees: 9000
+	tuitionFees: 9000,
 	).save()
 
     }
