@@ -19,11 +19,11 @@ class Course {
 	courseTitle blank: false, nullable: false;
 	courseLeader blank: false, nullable: false;
 	courseCode blank: false, nullable: false;
-	numberOfStudents blank: false, nullable: false, min: 20, max: 60;
+	numberOfStudents blank: false, nullable: false;
 	startDate blank: false, nullable: false;
 	endDate blank: false, nullable: false;
-	studyMode  blank: false, nullable: false, maxSize: 20;
-	description blank: false, nullable: false; description widget: 'textarea', maxSize: 5000;
+	studyMode  blank: false, nullable: false;
+	description blank: false, nullable: false; description widget: 'textarea';
 	tuitionFees blank: false, nullable: false, scale: 2;
     }
 }

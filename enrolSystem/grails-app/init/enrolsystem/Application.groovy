@@ -1,4 +1,4 @@
-package com.enrol
+package enrolsystem
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
